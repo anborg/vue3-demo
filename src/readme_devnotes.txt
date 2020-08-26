@@ -1,5 +1,16 @@
+Nodejs reinstall
+
+scooop install nodejs nvm yarn
+//scoop install openssh git
+scoop install sudo
+nvm install 8.11.2
+nvm use 8.11.2
+
+sudo npm install --global --production windows-build-tools
 
 https://github.com/danvega/vue3-smaller-faster-stronger/tree/master/vue-3/src
+
+
 
 
 vue create vue3-table

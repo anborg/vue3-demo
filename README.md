@@ -1,4 +1,5 @@
 # vue3-table
+Testing/demo of different components in vue3.
 
 ## Project setup
 ```
