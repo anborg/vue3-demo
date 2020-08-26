@@ -12,6 +12,12 @@
   <h3>Mouse Demo</h3>
   <mouse-demo/>
 
+  <roll-the-dice/>
+  <map-device-location/>
+  <map-locations-leaflet/>
+  <!-- <map-iss/> -->
+  <!-- <map-leaflet/> -->
+  
 </template>
 
 <script>
@@ -21,6 +27,11 @@ import BreweryList from './components/BreweryList'
 import CountButton from "./components/CountButton"
 import LifecycleHooks from "./components/LifecycleHooks"
 import MouseDemo from "./components/MouseDemo"
+import RollTheDice from './components/RollTheDice'
+import MapDeviceLocation from './components/MapDeviceLocation'
+// import MapLeaflet from './components/MapLeaflet'
+// import MapIss from './components/MapIss'
+import MapLocationsLeaflet from './components/MapLocationsLeaflet'
 export default {
   
   setup() {
@@ -32,7 +43,12 @@ export default {
     // BrewerySearchUseApi,
     CountButton,
     LifecycleHooks,
-    MouseDemo
+    MouseDemo,
+    RollTheDice,
+    MapDeviceLocation,
+    // MapLeaflet,
+    // MapIss,
+    MapLocationsLeaflet
   }
 };
 </script>

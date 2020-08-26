@@ -20,7 +20,7 @@
         <tbody>
             <tr v-for="brewery in breweriesSorted" :key="brewery.id" >
                 <td>{{ brewery.id }} </td>
-                <td><a v-bind:href="brewery.website_url">{{ brewery.name }} </a></td>
+                <td><a :href="brewery.website_url">{{ brewery.name }} </a></td>
                 <td>{{ brewery.city }}</td>
                 <td>{{ brewery.state }}</td>
                 <td>{{ brewery.latitude }}</td>

@@ -1,4 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+
+
+// import VueGeolocation from 'vue-browser-geolocation'
+// Vue.config.productiontip=false
+// Vue.use(VueGeolocation)
+
+const app = createApp(App);
+app.mount('#app');
