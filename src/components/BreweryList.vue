@@ -1,5 +1,5 @@
 <template>
-    <h1>Brewary List</h1>
+    <h1>Brewary List (lodash demo)</h1>
     City:  <input type="text" v-model="searchCity"/>
     Order by:
     <select v-model='orderBy'>
